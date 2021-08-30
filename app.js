@@ -26,7 +26,7 @@ board.addEventListener('click', e => {
       if(e.target.classList.contains('circle')) {
             score++;
             e.target.remove();
-            startGame()
+            createRandomCircle()
       }
 })
 
