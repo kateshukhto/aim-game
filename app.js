@@ -75,7 +75,7 @@ function getRandomNumber(min, max) {
 
 function finishGame() {
       timeEl.parentNode.classList.add('hide');
-      board.innerHTML =`<h1>Счет:<span class='primary'>${score}</span></h1>`;
+      board.innerHTML =`<h1>Score:<span class='primary'>${score}</span></h1>`;
 }
 
 function getRandomColor() {
